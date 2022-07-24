@@ -1,0 +1,44 @@
+#package-section .card .list-group-item {
+    border: none!important;
+}
+.active-pacakge .list-group-item, .active-pacakge .list-group-item .fa-circle-check {
+    color: #fff!important;
+}
+.list-group-flush>.list-group-item {
+    border-width: 0 0 var(--bs-list-group-border-width);
+}
+.list-group-item+.list-group-item {
+    border-top-width: 0;
+}
+.bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: transparent!important;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #6c757d!important;
+}
+.ps-0 {
+    padding-left: 0!important;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: var(--bs-list-group-bg);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.card header{
+    background-color: blue;
+}
